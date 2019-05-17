@@ -1,0 +1,76 @@
+#Snake game by Niklas Nurminen#283756
+
+Snake moves with keyboard keys: W(UP), A(LEFT), S(DOWN), D(RIGHT)
+
+Standart rules:
+    -You can go through walls
+    -If hit head hits snakepart = LOSE
+    -If snake is as large as gameboard = WIN!
+
+Game has three different difficulty levels:
+
+Easy:   -Every second snake moves.
+        -It doesn't speed up at anypoint.
+        -Gameboard size is default 10x10.
+        -Game has NO obstacles!
+
+Medium: -Every 0.5 second snake moves.
+        -Speed up everytime when snake eats food.
+        -Gameboard size is 2x default.
+        -Game has two obstacles, if hit game ends
+
+Hard:   -Every 0.2 second snake moves.
+        -Speed up everytime when snake eats food.
+        -Gameboard size is 3x default.
+        -Game has four obstacles, if hit game ends
+
+If nothing above is pressed, default is going to be gamemode : EASY.
+
+Other features:
+
+Pause/Resume
+    -Click button or hit spacebar
+
+Quit
+    -Click button or hit Esc
+
+Restart
+    -Restarts the game and you can choose gamemode again.
+
+Things where I succeed:
+    -Learned of the Qt mechanics from QGraphicsview to little parts like QGraphicsRectItem.
+    -Pointers usage is getting more familiar
+    -Basicly I learned to make QT objects move or vanish.
+    -I enjoyed making this and also I studied a lot Qt library instructions
+    -Overall snake movement code was very cleanly made and clearly.
+
+Things I need to learn:
+    -Whole code was done with only one class, because I realised idea too late.
+    -QGraphicsScene and QGraphicsView was hard to use at the beginning
+    -One additional feature is missing (make snake look more real snake) just because I don't have time.
+
+Minimal requirements:
+- The player must be able to start the game. //DONE
+- The game must have a game area, where the snake moves. //DONE
+- The player must be able to change the moving direction of the snake. //DONE
+- The user must be able to distinguish between the food, the head of the snake, and the rest of the body of the snake. //DONE
+- When the game ends, it informs about winning/losing and about the used time. //DONE
+- Game rules are defined //DONE
+
+Minimal requirements 5/5 DONE!
+
+Additional features:
+- The moving speed of the snake is not constantly the same, but the moving becomes faster when the game proceeds. //DONE
+- The game has different levels of difficulty, and the user can choose between them. //DONE
+- You can store the best result of the games played so far, and display it to the user. //DONE
+- The snake does not consist of rectangles, but it looks more like a real snake. Note that in such case you need different corner pieces // NOT DONE
+- The color of the snake varies piece by piece, for example,
+    such that the shade of the head is the darkest one, and the shade becomes the lighter, the closer that part is to the tail. //DONE
+- The snake does not crash to the border of the game area, but it continues its moving by the back way again to the game area. //DONE
+- You can implement other more complicated rules in the game logic. // DONE
+- Besides the food, there can be other objects to be eaten,
+    and eating them has different effects e.g. on the size of the snake or on directing the snake. // NOT DONE
+- Besides the borders, the game area contains other barriers. // DONE
+
+Additional features 7/9 DONE!
+
