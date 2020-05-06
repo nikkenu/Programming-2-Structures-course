@@ -1,4 +1,4 @@
-#Snake game by Niklas Nurminen#283756
+#Snake game by Niklas Nurminen
 
 Snake moves with keyboard keys: W(UP), A(LEFT), S(DOWN), D(RIGHT)
 
